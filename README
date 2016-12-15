@@ -1,0 +1,12 @@
+To play against the trained agent, run the file TDNSC.py and follow the prompts, entering in 'h' for a human player when the prompt appears.
+To enter a move, type the lowest card of the move and the pattern that follows
+For example, to play JJQQ, you would type 'J 2,2'; to play a 3, you would type '3 1'; to play 7788899, you would type '7 2,3,2'
+
+
+
+The pickle files contain the TD agents that performed the best after several rounds of TDNS. TDsNew.pickle contains the algorithms trained
+  with more complex features. These are used by the TDNSC.py, and can be loaded if by typing in the name at the first prompt.
+  
+TD.py contains the code for the TD algorithm, all the agents, and the game class. TD2, TD3, and TD4 were different attempts to add features
+  to TD. None of these made any improvements.
+TDUtil contains some helper functions that TD.py and its successors use.
